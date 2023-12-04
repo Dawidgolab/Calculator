@@ -13,6 +13,7 @@ public class Main {
         switch (operator) {
          
             case 1:
+                System.out.println("Wybrałeś dodawanie!!!");
                 a = calculator.getUserInput();
                 b = calculator.getUserInput();
                 System.out.println(calculator.Dodawanie(a, b));
