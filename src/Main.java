@@ -42,10 +42,8 @@ public class Main {
                 
             case 5:
                 System.out.println("Wybrałeś Potęgowanie!!!");
-                System.out.println("Podaj liczbe a :");
-                a = scanner.nextInt();
-                System.out.println("Podaj Potęge b :");
-                b = scanner.nextInt();
+                a = calculator.getUserInput();
+                b = calculator.getUserInputForPower();
                 System.out.println(calculator.Potega(a, b));
                 break;
                 
