@@ -6,6 +6,11 @@ class Calculator {
         return scanner.nextInt();
     }
     
+    public int getUserInputForPower() {
+        System.out.println("Podaj jej potęgę :");
+        return scanner.nextInt();
+    }
+    
     public int Dodawanie(int a, int b) {
         return a + b;
     }
